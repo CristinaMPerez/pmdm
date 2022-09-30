@@ -4,40 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:layout_margin="40dp"
+    android:orientation="horizontal"
     tools:context=".ut01.ex02.presentation.Ut01Ex02Activity">
 
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="@string/title"
-        android:textAlignment="center"
-        android:maxLines="5"
-        android:ellipsize="end"
-        android:textColor="@color/red" />
-
-    <TextView
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="@string/title"
-        android:textAlignment="center"
-        android:maxLines="1"
-        android:ellipsize="end"
-        android:textColor="@color/red" />
-
-    <TextView
-        android:id="@+id/label_title"
-        android:layout_width="50dp"
-        android:layout_height="wrap_content"
-        android:text="123 123"
-        android:textAlignment="center"
-        android:minLines="5"
-        android:textStyle="bold"
-        android:textColor="@color/red" />
-
     <androidx.appcompat.widget.AppCompatImageView
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        app:srcCompat=""/>
+        android:id="@+id/iconpareja"
+        android:layout_width="@dimen/size_image"
+        android:layout_height="@dimen/size_image"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_pareja" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/title1"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/label_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/contenido"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+
 
 </LinearLayout>
