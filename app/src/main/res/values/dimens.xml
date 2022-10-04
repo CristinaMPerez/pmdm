@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="size_image">200dp</dimen>
+    
+    
+    <dimen name="margin_bottom">120dp</dimen>
+    <dimen name="margin">40dp</dimen>
+    
+    <dimen name="width_star">30dp</dimen>
+    <dimen name="width_heart">25dp</dimen>
 </resources>
