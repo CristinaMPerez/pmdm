@@ -1,12 +1,23 @@
 <resources>
     <string name="app_name">PMDM</string>
+
     <string name="title">01/12/23</string>
     <string name="title1">Anuncios de octubre</string>
+    <string name="titulob">Titulo </string>
+    <string name="titulo_fruteria">Fruteria Perez</string>
+
     <string name="contenido">En los últimos días una vaguada ha condicionado la situación
         meteorológica de la Península Ibérica dando lugar a una situación inestable,
         con el paso de sucesivos frentes que han dejado precipitaciones persistentes en el norte y
         algunas tormentas dispersas en el interior. Incluso ha nevado en las cumbres por encima de
         unos 2000 metros de altitud.</string>
-    <string name="titulob">Titulo </string>
     <string name="contenidob">Contenido Contenido Contenido Contenido </string>
+
+    <string name="pack">Pack sorpresa</string>
+    <string name="recogida">Recogida hoy 00:14-23:59</string>
+    <string name="puntuacion">2,7</string>
+    <string name="km">4,8 km</string>
+    <string name="precio">2,99 €</string>
+
+
 </resources>

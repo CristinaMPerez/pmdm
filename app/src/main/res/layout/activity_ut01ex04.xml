@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_top"
+    android:orientation="horizontal"
+    tools:context=".ut01.ex04.Ut01Ex04Activity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/frutas"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_image"
+        android:background="@drawable/fruteria" />
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/titulo_fruteria"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/frutas"
+        android:tint="@color/white"
+        app:srcCompat="@drawable/iconcorazon" />
+
+    <TextView
+        android:id="@+id/pack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frutas"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/pack"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/recogida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pack"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/recogida" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recogida"
+        android:layout_marginTop="@dimen/margin_top"
+        android:tint="@color/red"
+        app:srcCompat="@drawable/iconstar" />
+
+    <TextView
+        android:id="@+id/puntuacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recogida"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/margin_top"
+        android:layout_marginTop="@dimen/width_star"
+        android:layout_toEndOf="@+id/star"
+        android:text="@string/puntuacion" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recogida"
+        android:layout_marginLeft="@dimen/margin_top"
+        android:layout_marginTop="@dimen/width_star"
+        android:layout_toEndOf="@+id/puntuacion"
+        android:text="@string/km"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recogida"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/width_star"
+        android:text="@string/precio"
+        android:textStyle="bold" />
+
+</RelativeLayout>
+
