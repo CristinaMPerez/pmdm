@@ -9,4 +9,9 @@
         unos 2000 metros de altitud.</string>
     <string name="titulob">Titulo </string>
     <string name="contenidob">Contenido Contenido Contenido Contenido </string>
+
+    <!--Form-->
+    <string name="form_label_name">Nombre: </string>
+    <string name="form_label_surname">Apellidos: </string>
+    <string name="form_label_save">Guardar </string>
 </resources>

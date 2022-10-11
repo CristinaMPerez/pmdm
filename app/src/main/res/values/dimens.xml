@@ -8,4 +8,6 @@
     
     <dimen name="width_star">30dp</dimen>
     <dimen name="width_heart">25dp</dimen>
+
+    <dimen name="ex06">16dp</dimen>
 </resources>
