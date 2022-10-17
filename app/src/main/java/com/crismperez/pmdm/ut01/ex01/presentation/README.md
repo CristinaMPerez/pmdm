@@ -1,2 +1,4 @@
 #UT-O1
-Ejercicio con LinearLayouts
+Ejercicio con vistas:
+-LinearLayouts
+-TextViews
